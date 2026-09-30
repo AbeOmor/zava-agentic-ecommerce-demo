@@ -1,0 +1,14 @@
+# Secrets
+.env
+*.env
+!*.env.example
+
+# OS
+.DS_Store
+
+# Build output / deps
+node_modules/
+dist/
+
+# Large data files
+*.jsonl.gz
